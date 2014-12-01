@@ -1,0 +1,44 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Menlo", "Courier New", "Courier";
+    font-size: 14px;
+    background: transparent;
+    color: #fff;
+    border: 0px;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+input, textarea, select {
+    border: 1px solid #ccc;
+    padding: 2px;
+}
+
+.tool-block {
+    float: right;
+    width: 24vw;
+    height: 100vh;
+    background: #111;
+}
+
+.screen-block {
+    height: 100vh;
+    width: 76vw;
+    background: #000;
+}
+
+#screen {
+    height: 98vh;
+    width: 74vw;
+    padding: 1vh;
+}
+
+textarea[name="function"] {
+    width: 95%;
+    height: 50vh;
+    padding: 6px;
+}

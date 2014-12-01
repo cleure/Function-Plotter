@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Function Plotter</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="./index.css">
+    </head>
+    <body>
+        <section class="tool-block">
+            <label for="resolution">Load Sketch:</label><br>
+            <select name="sketch-loader"></select><br><br>
+        
+            <label for="resolution">Sketch Name:</label><br>
+            <input type="text" name="sketch-name" value=""><br><br>
+        
+            <label for="resolution">Graph Resolution:</label><br>
+            <input type="number" name="resolution" value="25"><br><br>
+            
+            <label for="sample-rate">Sample Rate:</label><br>
+            <input type="number" name="sample-rate" value="60"><br><br>
+        
+            <label for="function">Function:</label>
+            <form>
+                <textarea name="function">
+function f(x) {
+    return Math.sin(x);
+}</textarea>
+
+            </form>
+        </section>
+        <section class="screen-block">
+            <canvas id="screen"></canvas>
+        </section>
+
+        <script src="./index.js"></script>
+    </body>
+</html>
